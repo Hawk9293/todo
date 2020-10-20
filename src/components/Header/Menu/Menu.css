@@ -1,0 +1,22 @@
+.menu {
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+.menu__item {
+    width: auto;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    background: black;
+    height: 100%;
+}
+.menu__item:hover {
+    transition: 0.2s;
+    background: rgba(255, 255, 255, 0.2);
+}

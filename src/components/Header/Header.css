@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background: black;
+}
+.mainHeader {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}
