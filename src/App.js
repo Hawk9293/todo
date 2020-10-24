@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
+import Title from './components/Title';
+import SearchPanel from './components/SearchPanel';
+import TodoList from './components/TodoList';
+import AddTodo from './components/AddTodo';
 
 function App(){
     return (
         <div className="App">
-                <Header/>
-
-                <Main/>
-
-                <Footer/>
+            <Title />
+            <SearchPanel />
+            <TodoList />
+            <AddTodo />
         </div>     
     );
 };

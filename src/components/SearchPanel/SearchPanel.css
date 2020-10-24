@@ -1,0 +1,46 @@
+.searchPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #099268;
+    width: 100%;
+}
+.searchPanel label{
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    background: #229D77;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+.searchPanel label input {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    background: #229D77;
+    outline: none;
+    border-radius: 30px;
+    height: 100%;
+    border: none;
+}
+.searchPanel label input::placeholder {
+    color: #62B99E;
+}
+.searchPanel label input:focus {
+ border: 2px solid #4dabf7;
+}
+.searchPanel button{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 20px;
+    color: #D3EBE4;
+    font-size: 16px;
+}

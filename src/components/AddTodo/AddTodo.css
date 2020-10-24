@@ -1,0 +1,46 @@
+.addTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: #099268;
+    width: 100%;
+}
+.addTodo label{
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    background: #229D77;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+.addTodo label input {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    background: #229D77;
+    outline: none;
+    border-radius: 30px;
+    height: 100%;
+    border: none;
+}
+.addTodo label input::placeholder {
+    color: #62B99E;
+}
+.addTodo label input:focus {
+ border: 2px solid #4dabf7;
+}
+.addTodo button{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+    position: absolute;
+    right: 20px;
+    color: #D3EBE4;
+    font-size: 16px;
+}

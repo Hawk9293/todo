@@ -1,0 +1,14 @@
+.title{
+    position: absolute;
+    top: -85px;
+    box-shadow: 10px -10px 300px 1px rgba(0,0,0,0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: #89CFB9;
+    font-size: 25px;
+    background: #099268;
+    width: 100%;
+    cursor: default;
+}
